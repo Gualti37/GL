@@ -3,13 +3,13 @@
 # https://symfony.com/doc/current/best_practices/configuration.html#infrastructure-related-configuration
 parameters:
     database_host: 127.0.0.1
-    database_port: 5432
-    database_name: Blog
+    database_port: null
+    database_name: symfony
     database_user: postgres
-    database_password: dede
-    database_drivers: pdo_pgsql
+    database_password: null
+    database_drivers: pdo_sqlite
     # You should uncomment this if you want to use pdo_sqlite
-    #database_path: '%kernel.project_dir%/var/data/data.sqlite'
+    database_path: '%kernel.kernel.root_dir%/var/data/data.sqlite'
 
     mailer_transport: smtp
     mailer_host: 127.0.0.1

@@ -5,11 +5,11 @@ parameters:
     database_host: 127.0.0.1
     database_port: null
     database_name: symfony
-    database_user: postgres
+    database_user: null
     database_password: null
     database_drivers: pdo_sqlite
     # You should uncomment this if you want to use pdo_sqlite
-    database_path: '%kernel.kernel.root_dir%/var/data/data.sqlite'
+    database_path: '%kernel.root_dir%/var/data/data.sqlite'
 
     mailer_transport: smtp
     mailer_host: 127.0.0.1

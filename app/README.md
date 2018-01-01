@@ -2,7 +2,9 @@ Nom & Prénom des participants au projet : Gualtiero Lugato
 ● Compte et accès : cd dans le repertoire du projet, ensuite:
 sudo php bin/console server:run 
 https://127.0.0.1:8000
+https://github.com/Gualti37/GL pour la version en SqLite sur le git.
 https://gualtiero-lugato-blog.herokuapp.com/ pour la version en ligne
+
 
 ● Commentaires : 
 
